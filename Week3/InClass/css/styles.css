@@ -18,3 +18,8 @@ footer{
 #paragraph-section{
   color: #5a0073;
 }
+
+.cool:hover{
+  color: black;
+  cursor: pointer;
+}
