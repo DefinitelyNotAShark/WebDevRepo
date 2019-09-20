@@ -1,0 +1,20 @@
+header{
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+main{
+background-color: pink;
+color: black;
+}
+
+footer{
+  background-color: #32dbd6;
+  color: white;
+  border: 5px solid green;
+}
+
+#paragraph-section{
+  color: #5a0073;
+}
