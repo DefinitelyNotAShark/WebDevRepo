@@ -1,0 +1,51 @@
+header{
+   width: 100%;
+   height: 120px;
+   border: 10px dashed green;
+   padding: 25px;
+   margin-bottom: 25px;
+}
+
+body{
+  background-color: #fffedb;
+  margin: auto;
+}
+
+main{
+  border: 1px solid yellow;
+  width: 100%;
+  height: 320px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  width: 100%;
+  border: 4px dashed blue;
+  height: 56px;
+  margin-bottom: 0px;
+}
+
+.leftCol{
+  background-color: #696666;
+  width: 25%;
+  height: 100%;
+  padding: 25px;
+}
+
+.rightCol{
+  width: 100%;
+  height: 100%;
+  background-color: #1f594f;
+}
+
+.midCol{
+  width: 50%;
+  height: 100%;
+  background-color: #702323;
+}
+
+h1{
+  background-color: #dedb4e;
+}
