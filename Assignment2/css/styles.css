@@ -1,0 +1,48 @@
+header{
+  background-color: #a8a8a8;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border: 3px solid #ffffff;
+  border-left: none;
+  border-right: none;
+
+  border-bottom: 10px solid #a8a8a8;
+
+  color: #000000;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+}
+
+body{
+  background-color: #a8a8a8; /*light gray*/
+  color: #000000;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+
+  /* margin stuff */
+  margin: auto;
+}
+
+p{
+  color: #000000;
+}
+
+a{
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #424242;
+  text-decoration: none;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
