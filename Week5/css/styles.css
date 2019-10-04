@@ -1,0 +1,16 @@
+/* body{
+  font-family: Verdana, Geneva, sans-serif;
+} */
+
+.fontOne{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.fontTwo{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.fontThree{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
