@@ -4,7 +4,7 @@ header{
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
     text-align: center;
-    background-color: #4ef2f0;
+    background-color: #FFFFFF;
     padding: 10px;
 }
 
@@ -16,8 +16,9 @@ main{
 
 footer{
     font-family: 'Libre Franklin', sans-serif; 
-    background-color: #ffa3ea;
+    background-color: #FFFFFF;
     padding: 10px;
+    text-align: center;
 }
 
 /*THESE ARE GOTTEN FROM https://www.w3schools.com/css/css_navbar.asp*/
@@ -29,7 +30,9 @@ ul{
     padding: 0;
     background-color: #FFFFFF;
     border: 1px solid #000000;
-    
+    position: fixed;
+    display: flex;
+    align-items: center;
 }
 
 li a{
@@ -38,7 +41,7 @@ li a{
     text-decoration: none;
     font-size: 20px;
     display: block;
-    padding: 8px 10px;
+    padding: 8px 25px;
     color: #000000;
     background-color: #FFFFFF;
     
@@ -48,10 +51,9 @@ li a{
 }
 
 li a:hover{
-    background-color: #79109c;
+    background-color: #4ef2f0;
     color: #FFFFFF;
 }
-
 
 /*CLASSES*/
 
@@ -68,7 +70,6 @@ li a:hover{
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
-    align-content: center;
 }
 
 .column{
@@ -79,7 +80,7 @@ li a:hover{
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 15px;
   vertical-align: middle;
   width: 100%;
 }
