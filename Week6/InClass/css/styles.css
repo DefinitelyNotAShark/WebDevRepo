@@ -1,0 +1,12 @@
+header{
+  width: 100%;
+  background-color: pink;
+  height: 200px;
+}
+
+body{
+  background-color: #FFFFFF;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #000000;
+  margin: 0 auto;
+}
