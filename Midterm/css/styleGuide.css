@@ -25,17 +25,19 @@ footer{
 
 ul{
     list-style-type: none;
-    overflow: hidden;
+/*    overflow: hidden;*/
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
-    border: 1px solid #000000;
+/*  The whole navbar*/
     position: fixed;
     display: flex;
-    align-items: center;
+    top: 0;
+    width: 100%;
 }
 
 li a{
+/*    Each part of the nav bar*/
     float: left;
     text-align: center;
     text-decoration: none;
@@ -44,10 +46,6 @@ li a{
     padding: 8px 25px;
     color: #000000;
     background-color: #FFFFFF;
-    
-    border: 1px solid #000000;
-    border-bottom: none;
-    border-top: none;
 }
 
 li a:hover{
@@ -83,6 +81,28 @@ li a:hover{
   margin-top: 15px;
   vertical-align: middle;
   width: 100%;
+}
+
+.heroImage{ 
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+    background-image: url("../images/beach.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.heroText{  
+    width: 100vw;/*Make it as wide as you can*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
