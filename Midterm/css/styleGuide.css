@@ -11,7 +11,6 @@ header{
 main{
     font-family: 'Libre Franklin', sans-serif;
     background-color: #ffcf4a;
-    padding: 10px;
 }
 
 footer{
@@ -84,8 +83,10 @@ li a:hover{
 }
 
 .heroImage{ 
-    width: 100vw;
+/*
+    width: 100vw;*/
     height: 100vh;
+
     
     display: flex;
     justify-content: center;
@@ -98,8 +99,8 @@ li a:hover{
     position:relative;
 }
 
+
 .heroText{  
-    width: 100vw;/*Make it as wide as you can*/
     justify-content: center;
     align-items: center;
     text-align: center;
