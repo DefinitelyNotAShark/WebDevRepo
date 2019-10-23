@@ -82,7 +82,24 @@ li a:hover{
   width: 100%;
 }
 
-.heroImage{ 
+.heroImageBeach{ 
+/*
+    width: 100vw;*/
+    height: 280vh;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../images/waves.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.heroImageStars{ 
 /*
     width: 100vw;*/
     height: 100vh;
@@ -92,7 +109,7 @@ li a:hover{
     justify-content: center;
     align-items: center;  
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../images/beach.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../images/stars.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
