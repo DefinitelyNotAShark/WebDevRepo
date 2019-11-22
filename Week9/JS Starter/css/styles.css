@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+section{
+    margin-left: 80px;
+}
+
+.ball{
+    margin-top: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    animation: bounce 1s infinite;
+    animation-timing-function: linear;
+    border-radius: 100px;
+}
+
+.paddle{
+    width: 100px;
+    height: 10px;
+    background-color: #fc5e03;
+    border-radius: 100px;
+}
+
+.red{
+    color: darkred;
+}
+
+.orange{
+    color:darkorange;
+}
+
+body{
+    transition-duration: 1s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+}
+
+body.dark{
+    background-color: #000;
+    color: #FFF;
+}
+
+@keyframes bounce{
+    0%{transform: translate(0, 0px);}
+    65%{transform: translate(0, -40px);}
+    100%{transform: translate(0, 0);}
+}
+

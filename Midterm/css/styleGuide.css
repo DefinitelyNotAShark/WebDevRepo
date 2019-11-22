@@ -1,4 +1,7 @@
 /*AUTO*/
+* {
+  box-sizing: border-box;
+}
 
 header{   
     font-family: 'Fjalla One', sans-serif;
